@@ -2,7 +2,7 @@
 #   2 inputs, 3 hidden layers, 2 outputs.
 
 import numpy as np
-from activation_functions import sigmoid, identity_function
+from functions.activation_functions import sigmoid, identity_function
 
 def init_network():
     network = {}
